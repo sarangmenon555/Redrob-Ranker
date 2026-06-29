@@ -53,8 +53,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "candidates.jsonl")
-
+DATA_PATH = "data/candidates.jsonl"
 
 @st.cache_data(show_spinner=False)
 def load_candidates():
